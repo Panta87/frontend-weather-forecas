@@ -61,7 +61,7 @@ const TodaysWeather = ({ cityName }) => {
                 className="bg-white p-4 items-center text-center rounded-3xl !w-[92%]"
               >
                 <img
-                  src={`/src/icons/${forecast.weather[0].icon}.png`}
+                  src={`/${forecast.weather[0].icon}.png`}
                   alt="Weather Icon"
                   className="w-16 h-16 mx-auto mb-2 "
                 />

@@ -56,7 +56,7 @@ const WeatherInfo = ({ cityName }) => {
                     <div className="flex flex-row items-center">
                       <img
                         className="mr-1 w-5 "
-                        src="/src/images/location.png"
+                        src="/location.png"
                         alt=""
                       />
                       <span className="mb-2  font-bold text-xl text-blue-500">
@@ -72,7 +72,7 @@ const WeatherInfo = ({ cityName }) => {
                   </div>
                   <img
                     className="w-[300px] opacity-40"
-                    src="/src/images/world-map.png"
+                    src="/world-map.png"
                     alt=""
                   />
                 </div>
@@ -86,7 +86,7 @@ const WeatherInfo = ({ cityName }) => {
                   <div className="flex flex-col items-center gap-3 bg-white opacity-90 p-6 rounded-3xl font-bold">
                     <img
                       className="w-14"
-                      src="/src/images/humidity.png"
+                      src="/humidity.png"
                       alt=""
                     />
                     <p>Humidity: {weatherData.main.humidity}%</p>
@@ -94,7 +94,7 @@ const WeatherInfo = ({ cityName }) => {
                   <div className="flex flex-col items-center gap-3 bg-white opacity-90 p-6 rounded-3xl font-bold">
                     <img
                       className="w-14"
-                      src="/src/images/pressure.png"
+                      src="/pressure.png"
                       alt=""
                     />
                     <p>
@@ -111,7 +111,7 @@ const WeatherInfo = ({ cityName }) => {
                     </p>
                   </div>
                   <div className="flex flex-col items-center gap-3 bg-white opacity-90 p-6 rounded-3xl font-bold">
-                    <img className="w-14" src="/src/images/wind.png" alt="" />
+                    <img className="w-14" src="/wind.png" alt="" />
                     <p>
                       Wind : <WindType speed={weatherData.wind.speed} />
                     </p>
@@ -120,7 +120,7 @@ const WeatherInfo = ({ cityName }) => {
                   <div className="flex flex-col items-center gap-3 bg-white opacity-90 p-6 rounded-3xl font-bold">
                     <img
                       className="w-20"
-                      src="/src/images/cloudiness.png"
+                      src="/cloudiness.png"
                       alt=""
                     />
                     <p>Cloudiness: {weatherData.clouds.all} %</p>
@@ -150,7 +150,7 @@ const WeatherInfo = ({ cityName }) => {
 
             <div className="flex flex-col p-5 gap-3 items-center mb-2 w-[30%] bg-gradient-to-b from-white to-sky-200 rounded-3xl text-blue-500 font-bold">
               <img
-                src={`/src/icons/${weatherData.weather[0].icon}.png`}
+                src={`/${weatherData.weather[0].icon}.png`}
                 alt="Weather Icon"
                 className="mr-2 mb-5 w-40 h-40"
               />
@@ -165,7 +165,7 @@ const WeatherInfo = ({ cityName }) => {
               <div className="flex items-center w-[100%] rounded-3xl bg-white p-1 pl-4 pr-4 ">
                 <img
                   className="w-[20px] "
-                  src={`/src/icons/${weatherData.weather[0].icon}.png`}
+                  src={`/${weatherData.weather[0].icon}.png`}
                   alt=""
                 />
                 <span className="flex-grow text-center">
@@ -176,7 +176,7 @@ const WeatherInfo = ({ cityName }) => {
               <div className="flex items-center w-[100%] rounded-3xl bg-white p-1 pl-4 pr-4 ">
                 <img
                   className="w-[20px] "
-                  src="/src/images/max-temp.png"
+                  src="/max-temp.png"
                   alt=""
                 />
                 <span className="flex-grow text-center">
@@ -186,7 +186,7 @@ const WeatherInfo = ({ cityName }) => {
               <div className="flex items-center w-[100%] rounded-3xl bg-white p-1 pl-4 pr-4 ">
                 <img
                   className="w-[20px] "
-                  src="/src/images/min-temp.png"
+                  src="/min-temp.png"
                   alt=""
                 />
                 <span className="flex-grow text-center">
@@ -196,7 +196,7 @@ const WeatherInfo = ({ cityName }) => {
               <div className="flex items-center w-[100%] rounded-3xl bg-white p-1 pl-4 pr-4 ">
                 <img
                   className="w-[20px] "
-                  src="/src/images/sunrise.png"
+                  src="/sunrise.png"
                   alt=""
                 />
                 <span className="flex-grow text-center">
@@ -210,7 +210,7 @@ const WeatherInfo = ({ cityName }) => {
               <div className="flex items-center w-[100%] rounded-3xl bg-white p-1 pl-4 pr-4 ">
                 <img
                   className="w-[20px] "
-                  src="/src/images/sunrise.png"
+                  src="/sunrise.png"
                   alt=""
                 />
                 <span className="flex-grow text-center">

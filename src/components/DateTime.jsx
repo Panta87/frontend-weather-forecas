@@ -28,7 +28,7 @@ const DateTime = () => {
 
   return (
     <div className="flex flex-row items-center gap-4">
-      <img className="w-5" src="/src/images/calendar.png" alt="" />
+      <img className="w-5" src="/calendar.png" alt="" />
       <p className="text-white">{formattedDate}</p>
       <p className="text-white">{formattedTime}</p>
     </div>

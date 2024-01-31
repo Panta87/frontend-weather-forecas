@@ -20,23 +20,23 @@ const getAqiDescription = (aqi) => {
   if (aqi <= 1) {
     description = "Good";
     colorStyle = { color: "#8dbd21" };
-    imageUrl = "/src/images/AQ-Good.png";
+    imageUrl = "/AQ-Good.png";
   } else if (aqi <= 2) {
     description = "Moderate";
     colorStyle = { color: "#fac924" };
-    imageUrl = "/src/images/AQ-Moderate.png";
+    imageUrl = "/AQ-Moderate.png";
   } else if (aqi <= 3) {
     description = "Unhealthy For Sensitive Groups";
     colorStyle = { color: "#f18b00" };
-    imageUrl = "/src/images/AQ-UnhealthySensitive.png";
+    imageUrl = "/AQ-UnhealthySensitive.png";
   } else if (aqi <= 4) {
     description = "Unhealthy";
     colorStyle = { color: "#e94578" };
-    imageUrl = "/src/images/AQ-Unhealthy.png";
+    imageUrl = "/AQ-Unhealthy.png";
   } else {
     description = "Very Unhealthy";
     colorStyle = { color: "#903489" };
-    imageUrl = "/src/images/AQ-VeryUnhealthy.png";
+    imageUrl = "/AQ-VeryUnhealthy.png";
   }
 
   return {
