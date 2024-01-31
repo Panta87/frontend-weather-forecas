@@ -2,7 +2,7 @@ const apiKey = "7235e8a494c3b320f12e423469fc9cd7";
 
 
 export const getAutocompleteSuggestions = async (searchTerm) => {
-  const apiUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${searchTerm}*}&limit=5&appid=${apiKey}`;
+  const apiUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${searchTerm}*}&limit=5&appid=${apiKey}`;
 
   try {
     const response = await fetch(apiUrl);
