@@ -1,4 +1,4 @@
-const apiKey = import.meta.env.PUBLIC_WEATHERMAP_API_KEY;
+const apiKey = "7235e8a494c3b320f12e423469fc9cd7";
 
 
 export const getAutocompleteSuggestions = async (searchTerm) => {
