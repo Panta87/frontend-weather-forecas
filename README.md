@@ -1,4 +1,5 @@
-# Astro Starter Kit: Minimal
+# Weather Forecast App Astro, ReactJs, Tailwind and OpenWeather  Apis
+
 
 ```sh
 npm create astro@latest -- --template minimal
